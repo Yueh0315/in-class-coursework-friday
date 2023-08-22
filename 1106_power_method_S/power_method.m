@@ -1,6 +1,6 @@
 function power_method(A)
     % input: A a nxn matrix
-    % ouput: biggest eigenvalue £f1 and corresponding eigenvector v1
+    % ouput: biggest eigenvalue Â£f1 and corresponding eigenvector v1
     %
     % example:
     % > A = [2 1 5; 5 7 9; 4 6 1];
@@ -34,7 +34,7 @@ function power_method(A)
         u = v;
     end
     % output
-    disp(['£f1 = ', num2str(l0)])
+    disp(['Â£f1 = ', num2str(l0)])
     disp('v1 = ')
     disp(v)
     c = A*v;
